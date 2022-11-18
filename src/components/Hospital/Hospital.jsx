@@ -14,6 +14,7 @@ const Hospital = () => {
 
    const handleChange=(e)=>{
     setState({...state,[e.target.name]:e.target.value})
+    
     // if(e.target.name==='fullname'){
     //     setState({...state,name:e.target.value})
     // }
